@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Blog() {
     return (
-        <div className="bg-cover bg-center min-h-screen" style={{ backgroundImage: 'url(https://wallpapercave.com/wp/wp2874992.jpg)' }}>
+       
             <div className="flex flex-col items-center justify-center h-full">
                 {/* First Box */}
                 <div className="m-6 max-w-xl relative bg-gradient-to-r from-violet-500 to-fuchsia-500 rounded-lg shadow-lg">
@@ -56,6 +56,6 @@ export default function Blog() {
                     </div>
                 </div>
             </div>
-        </div>
+        
     );
 }
